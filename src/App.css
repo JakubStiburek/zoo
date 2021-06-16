@@ -9,7 +9,7 @@
 }
 
 .center {
-  width: 81.25em; /* TODO change to max-width */
+  max-width: 81.25em; /* TODO change to max-width */
   margin: auto;
 }
 
@@ -31,14 +31,15 @@
 }
 
 .navigation {
-  height: 18.75em;
+  height: 33em;
 }
 
 .projector {
   position: relative;
   top: 1.5em;
   background: white;
-  height: 15.625em;
+  max-width: 81.25em;
+  height: max-content;
 }
 
 .map {

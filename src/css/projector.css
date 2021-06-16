@@ -1,3 +1,18 @@
-.projector {
-  background: orange;
+.controls {
+  width: 59.375em;
+  margin: auto;
+  position: relative;
+  top: -8.4375em;
+  display: flex;
+  justify-content: space-between;
 }
+
+.control-button {
+  background: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  height: 7.25em;
+  width: max-content;
+}
+
