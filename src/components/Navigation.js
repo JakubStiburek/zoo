@@ -4,7 +4,7 @@ import Projector from "./Projector";
 
 const Navigation = () => {
   return (
-    <div className="navigation">
+    <div className="navigation gradient-background-black">
       navigation
       <Projector />
     </div>

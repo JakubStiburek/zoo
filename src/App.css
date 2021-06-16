@@ -1,6 +1,6 @@
-.App div {
-  outline: 1px solid red;
-}
+/*.App div {*/
+/*  outline: 1px solid red;*/
+/*}*/
 
 .App {
   display: flex;
@@ -9,39 +9,50 @@
 }
 
 .center {
-  width: 1300px; /* TODO change to max-width */
+  width: 81.25em; /* TODO change to max-width */
   margin: auto;
 }
 
+.gradient-background-black {
+  background: #000000;
+  background: -webkit-linear-gradient(#000000, #434343);
+  background: linear-gradient(#000000, #434343);
+}
+
+.gradient-background-black-reverse  {
+  background: #000000;
+  background: -webkit-linear-gradient(#434343, #000000);
+  background: linear-gradient(#434343, #000000);
+}
+
 .navigation {
-  height: 300px;
-  background: black;
+  height: 18.75em;
 }
 
 .projector {
   position: relative;
-  top: 50px;
+  top: 3.125em;
   background: white;
-  height: 250px;
+  height: 15.625em;
 }
 
 .map {
-  margin-top: 21px;
-  height: 250px;
+  margin-top: 1.3125em;
+  height: 15.625em;
 }
 
 .news {
-  height: 200px;
+  height: 12.5em;
 }
 
 .newsletter {
-  height: 200px;
+  height: 12.5em;
 }
 
 .slider {
-  height: 150px;
+  height: 9.375em;
 }
 
 .footer {
-  height: 50px;
+  height: 3.125em;
 }
