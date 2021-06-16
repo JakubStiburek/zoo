@@ -1,0 +1,47 @@
+#logo {
+  display: flex;
+  color: white;
+  width: max-content;
+}
+
+#wrapper-navigation {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: unset;
+}
+
+.nav-bar {
+  width: 31.25em;
+}
+
+.nav-button {
+  color: white;
+  background: transparent;
+  padding: unset;
+  border: unset;
+}
+
+.nav-button-simple:hover {
+  padding-bottom: 0.3em;
+}
+
+.home-button {
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  border-radius: 0.3em;
+  background: white;
+  color: black;
+}
+
+.home-button:hover {
+  color: white;
+  background: black;
+}
+
+.navigation ul {
+  margin: unset;
+  padding: unset;
+}

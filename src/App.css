@@ -13,6 +13,11 @@
   margin: auto;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .gradient-background-black {
   background: #000000;
   background: -webkit-linear-gradient(#000000, #434343);
@@ -31,7 +36,7 @@
 
 .projector {
   position: relative;
-  top: 3.125em;
+  top: 1.5em;
   background: white;
   height: 15.625em;
 }
